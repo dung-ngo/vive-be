@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "chinh_sach_lien_kets",
+  "info": {
+    "singularName": "chinh-sach-lien-ket",
+    "pluralName": "chinh-sach-lien-kets",
+    "displayName": "Chính sách liên kết",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Page": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.single-page"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

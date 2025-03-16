@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_activities",
+  "info": {
+    "displayName": "Activity",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string"
+    },
+    "hyperlink": {
+      "type": "string"
+    }
+  }
+}

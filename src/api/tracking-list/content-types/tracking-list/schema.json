@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracking_lists",
+  "info": {
+    "singularName": "tracking-list",
+    "pluralName": "tracking-lists",
+    "displayName": "Tracking list",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "link": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

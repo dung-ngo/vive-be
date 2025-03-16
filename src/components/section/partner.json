@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "hyperlink": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

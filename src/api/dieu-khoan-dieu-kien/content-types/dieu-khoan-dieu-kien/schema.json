@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "dieu_khoan_dieu_kiens",
+  "info": {
+    "singularName": "dieu-khoan-dieu-kien",
+    "pluralName": "dieu-khoan-dieu-kiens",
+    "displayName": "Điều khoản điều kiện",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Page": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.single-page"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

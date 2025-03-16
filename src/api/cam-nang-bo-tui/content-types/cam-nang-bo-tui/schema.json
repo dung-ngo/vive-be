@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "cam_nang_bo_tuis",
+  "info": {
+    "singularName": "cam-nang-bo-tui",
+    "pluralName": "cam-nang-bo-tuis",
+    "displayName": "Cẩm nang bỏ túi"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

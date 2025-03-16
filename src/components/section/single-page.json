@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_single_pages",
+  "info": {
+    "displayName": "Single Page",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

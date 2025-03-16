@@ -1,0 +1,75 @@
+.qr-code {
+  text-align: center;
+  width: 700px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-code .qr-container {
+  margin-bottom: 20px;
+}
+
+.qr-code .controls {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.qr-code .form-group {
+  margin-bottom: 10px;
+}
+
+.qr-code .form-group label {
+  margin-right: 10px;
+  display: inline-block;
+  width: 70px;
+}
+
+.qr-code .form-group select,
+.qr-code .form-group input {
+  width: 300px;
+  padding: 5px;
+}
+
+.qr-code button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.qr-code button:hover {
+  background-color: #3700b3;
+}
+
+.qr-code button.disabled {
+  background-color: #50475a;
+  opacity: 0.5;
+  cursor: unset;
+}
+
+
+.qr-download {
+  margin: auto !important;
+}
+
+
+.qr-code  *:focus {
+  outline: none !important;
+}
+
+.qr-link {
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 8px;
+}

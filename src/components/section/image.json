@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_images",
+  "info": {
+    "displayName": "Image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "hyperlink": {
+      "type": "string"
+    }
+  }
+}

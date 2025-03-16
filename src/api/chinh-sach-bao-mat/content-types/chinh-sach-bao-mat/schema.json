@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "chinh_sach_bao_mats",
+  "info": {
+    "singularName": "chinh-sach-bao-mat",
+    "pluralName": "chinh-sach-bao-mats",
+    "displayName": "Chính sách bảo mật",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Page": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.single-page"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

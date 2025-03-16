@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "lien_hes",
+  "info": {
+    "singularName": "lien-he",
+    "pluralName": "lien-hes",
+    "displayName": "Liên hệ"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_logos",
+  "info": {
+    "displayName": "Logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hyperlink": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    }
+  }
+}
