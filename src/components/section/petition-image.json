@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_comments",
+  "info": {
+    "displayName": "Logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "userImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "userName": {
+      "type": "string"
+    },
+    "userComment": {
+      "type": "string"
+    }
+  }
+}

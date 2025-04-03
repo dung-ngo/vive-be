@@ -12,18 +12,21 @@
     "develop:watch": "strapi develop --watch-admin",
     "install:plugins": "for D in src/plugins/*/; do yarn --cwd \"${D}\"; done"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-graphql": "4.14.4",
     "@strapi/plugin-i18n": "4.14.4",
     "@strapi/plugin-seo": "^1.9.6",
     "@strapi/plugin-users-permissions": "4.14.4",
-    "@strapi/strapi": "4.14.4",
+    "@strapi/strapi": "^5.12.3",
     "better-sqlite3": "8.6.0",
     "graphql-middleware": "^6.1.35",
     "graphql-rate-limit": "^3.3.0",
     "pg": "^8.11.3",
-    "strapi-plugin-tagsinput": "^1.0.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "strapi-plugin-tagsinput": "^1.0.0",
+    "styled-components": "^6.1.17"
   },
   "author": {
     "name": "A Strapi developer"
