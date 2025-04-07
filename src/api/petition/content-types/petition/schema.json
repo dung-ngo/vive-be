@@ -110,7 +110,7 @@
           "localized": true
         }
       },
-      "component": "section.userImage"
+      "component": "section.comment"
     },
     "seo": {
       "type": "component",
